@@ -1,0 +1,60 @@
+.col-side-container {
+  border-right: 1px solid #8a8a8a;
+  opacity: 0.7;
+}
+
+.side-nav-bar {
+  list-style: none;
+  padding: 0px;
+  margin-left: 15px;
+  margin-top: 20px;
+
+  li {
+    button {
+      border: none;
+      cursor: pointer;
+      background-color: #fff;
+      margin-top: 40px;
+    }
+    button:hover {
+      color: aqua;
+    }
+  }
+}
+
+.col-content-container {
+  input {
+    width: 90%;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+}
+.search-bar-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  .searchImage {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.example-card {
+  .image-section {
+    max-height: 400px;
+    img {
+      max-height: 400px;
+    }
+  }
+}
+
+.example-card {
+  p {
+    line-height: 20px;
+  }
+}
